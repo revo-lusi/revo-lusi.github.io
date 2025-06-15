@@ -20,10 +20,6 @@ navs.forEach((e) => {
   });
 });
 
-sendMsgBtn.addEventListener("click", () => {
-  alert("Kocak! ini cuma sample, tombolnya belum fungsi");
-});
-
 imgCertificates.forEach((e) => {
   e.addEventListener("click", () => {
     e.classList.add("active");
